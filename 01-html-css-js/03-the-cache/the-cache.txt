@@ -1,0 +1,25 @@
+<link rel="stylesheet" href="./css/styles.css?v=1.0">
+
+1. Che cosa fa ?v=1.0? 
+?v=1.0 è un parametro di query che viene aggiunta a un file CSS o JS nel tag <link>
+e serve principalmente per gestire la cache del browser.
+Questa forza il browser a scaricare la versione più recente del file invece di usare una copia
+memorizzata in cache garantendo così che le modifiche grafiche siano visualizzate immediatamente dagli utenti.
+
+2.Come funziona la cache del browser?
+La cache del browser è un meccanismo che serve a: 
+    - caricare i siti più velocemente;
+    - ridurre il traffico di rete;
+    - evitare di riscaricare sempre gli stessi file.
+
+Nella pratica i passaggi sono:
+    1. La prima volta che si visita un sito web il browser scarica: HTML, CSS, JavaScript e le immagini presenti.
+    2. Alcuni di questi file vengono salvati in cache (memoria locale).
+    3. Se si visita nuovamente lo stesso sito posso verificarsi 2 ipotesi con due possibili situazioni:
+        a. se il file non è cambiato il browser usa la versione salvata la prima volta che si è visitato il sito;
+        b. se il file sembra nuovo (URL diverso) il browser lo scarica.
+
+Approfondimento: Cache busting
+Tecnica di sviluppo web utilizzata per forzare il browser a scaricare la versione più recente di un file (come CSS, 
+JavaScript o immagini), ignorando le vecchie copie memorizzate in cache. Consiste nel modificare l'URL della risorsa, 
+ad esempio aggiungendo un parametro di versione (file.css?v=1.1) o un hash del contenuto (style.abc123.css), rendendolo unico.

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Astronaut Application</title>
+        <meta name="description" content="Apply now for the upcoming space mission. Fill out your academic and physical profile to join our astronaut program.">
+        <meta name="author" content="Gaia Giachero">
+
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Astronaut Application">
+        <meta property="og:description" content="Have you ever dreamed of the stars? Submit your application for the next space mission today.">
+        <meta property="og:image" content="https://cdn.shopify.com/s/files/1/0657/3100/2634/files/papier-peint-astronaute-image-d-un-astronaute-flottant-dans-l-espace_3053265d-1577-44b6-bad6-02de9fbe626a.png?v=1735556958">
+
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <h1>Astronaut Application</h1>
+        <p>Complete the following fields: </p>
+
+            <!-- save data with https://sheetdb.io/app/apis on google sheet -->
+            <form action="https://sheetdb.io/api/v1/9tl5f6gncv5ov" target="_blank" method="post"> 
+
+            <!-- save data with webhook -->
+            <!-- <form action="https://webhook.site/92affca2-5dce-4629-81b0-3deaa55770b3" target="_blank" method="post" enctype="multipart/form-data"> -->
+            <fieldset> 
+                <legend><b>ANAGRAPHIC:</b></legend>
+                <label for="name">Name: </label>
+                <input type="text" name="user-name" id="name" placeholder="Insert your name..." required> 
+                
+                <label for="secondName">&nbsp &nbsp Second name: </label>
+                <input type="text" name="user-secondName" id="secondName" placeholder="Insert your second name..."> 
+
+                <label for="surname">&nbsp &nbsp Surname: </label>
+                <input type="text" name="user-surname" id="surname" placeholder="Insert your surname..." required> 
+            </fieldset>
+            <p></p>
+            <fieldset>
+                <legend><b>PERSONAL INFORMATION:</b></legend>
+                <label for="target-mission">Target mission: </label>
+                <input type="text" name="mission" id="target-mission" placeholder="Insert your target mission..." required> 
+
+                <label for="age">&nbsp &nbsp Age (min 18): </label>
+                <input type="number" name="user-age" id="age" placeholder="Insert your age..." min="18" required> 
+
+                <label for="nationality">&nbsp &nbsp Nationality: </label>
+                <input type="text" id="nationality" name="user-nationality" placeholder="Insert your nationality..." required> 
+
+                <label for="gender">&nbsp &nbsp Gender: </label>
+                <input type="radio" name="gender" id="man" value="man" checked>
+                <label for="man">Man</label>
+                <input type="radio" name="gender" id="woman" value="woman">
+                <label for="woman">Woman</label>
+                <input type="radio" name="gender" id="other" value="other">
+                <label for="other">Other</label>
+            </fieldset>
+            <p></p>
+            <fieldset>
+                <legend><b>PHYSICAL CAHARACTERISTICS:</b></legend>
+                <label for="color-hair">Color hair: </label>
+                <input type="color" id="color-hair" name="color-hair" value="#0000">
+                
+                <label for="color-eyes">&nbsp &nbsp Color eyes: </label>
+                <select id="color-eyes" name="color-eyes" required>
+                    <option value="" disabled selected hidden>Select color eyes</option>
+                    <option value="brown">Brown eyes</option>
+                    <option value="blue">Blue eyes</option>
+                    <option value="green">Green eyes</option>
+                    <option value="grey">Grey eyes</option>
+                </select>
+
+                <label for="body-weight">&nbsp &nbsp Body weight (kg, max 100): </label>
+                <input type="number" id="body-weight" name="user-body-weight" min="0" max="100" placeholder="Insert..." required>  
+            </fieldset>
+            <p></p>
+            <fieldset>
+                <legend><b>OTHER INFORMATION:</b></legend>
+                <label for="email">E-mail: </label>
+                <input type="email" id="email" name="user-email" placeholder="Insert your email..." required>
+
+                <label for="num-tel">&nbsp &nbsp Telephone: </label>
+                <input type="tel" id="num-tel" name="user-num-tel" placeholder="Insert your telephone..." maxlength="10" required>
+
+                <label for="address">&nbsp &nbsp Address: </label>
+                <input type="text" id="address" name="user-address" placeholder="Insert your address...">
+            </fieldset>
+            <p></p>
+            <fieldset>
+                <legend><b>ACADEMIC AND PROFESSIONAL PROFILE:</b></legend>
+                <label>Qualifications (select one or more choose): </label>
+                <p></p>
+                <input type="checkbox" name="qualifications[]" id="study-middle" value="Middle School Diploma">
+                <label for="study-middle">Middle School Diploma</label>
+                <div></div>
+                <input type="checkbox" name="qualifications[]" id="study-high" value="High School Diploma">
+                <label for="study-high">High School Diploma</label>
+                <div></div>
+                <input type="checkbox" name="qualifications[]" id="study-professional" value="Professional Qualification">
+                <label for="study-professional">Professional Qualification</label>
+                <div></div>
+                <input type="checkbox" name="qualifications[]" id="study-bachelor" value="Bachelor's Degree">
+                <label for="study-bachelor">Bachelor's Degree</label>
+                <div></div>
+                <input type="checkbox" name="qualifications[]" id="study-master" value="Master's Degree">
+                <label for="study-master">Master's Degree</label>
+                <div></div>
+                <input type="checkbox" name="qualifications[]" id="study-single-cycle" value="Single-Cycle Degree">
+                <label for="study-single-cycle">Single-Cycle Degree</label>
+                <div></div>
+                <input type="checkbox" name="qualifications[]" id="study-master1" value="Master's Degree">
+                <label for="study-master1">Master's Degree</label>
+                <div></div>
+                <input type="checkbox" name="qualifications[]" id="study-specialization" value="Specialization Diploma">
+                <label for="study-specialization">Specialization Diploma</label>
+                <div></div>
+                <input type="checkbox" name="qualifications[]" id="study-PhD" value="PhD">
+                <label for="study-PhD">PhD</label>
+                <div></div>
+                <input type="checkbox" name="qualifications[]" id="study-AFAM" value="AFAM Qualifications">
+                <label for="study-AFAM">AFAM Qualifications</label>
+                <div></div>
+                <input type="checkbox" name="qualifications[]" id="study-ITS" value="ITS (Technical Institute for Technical Studies)">
+                <label for="study-ITS">ITS (Technical Institute for Technical Studies)</label>
+            </fieldset>
+            <p></p>
+            <!-- this function it can use only with webhook, with SheetDB only the name is saved -->
+            <fieldset>
+                <legend><b>CURRICULUM:</b></legend>
+                <label for="curriculum">Upload:</label>
+                <input type="file" name="upload-curriculum" accept=".pdf" id="curriculum">
+            </fieldset>
+            <p></p>
+            <fieldset>
+                <legend><b>BIOGRAPHY:</b></legend>
+                <label for="biography">Write a little biography (max 255 characters):</label>
+                <div></div>
+                <textarea id="biography" name="user-biography" rows="6" cols="100" maxlength="255" placeholder="Write a little biography (max 255 characters)..."></textarea>
+            </fieldset>
+            <p></p>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </body>
+</html>
