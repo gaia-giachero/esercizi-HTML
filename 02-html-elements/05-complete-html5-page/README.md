@@ -1,18 +1,18 @@
 # __Baked trofie with speck and walnuts__
 **This is an HTML5 file about a delicious Italian recipe with navigation, tables, lists, images, and structured content for a family-friendly meal.**
 
-## 📍 Table of Contents
+## Table of Contents
 * [Features](#features)
 * [Structure](#structure)
 * [How to get started](#how-to-get-started)
-* [What It Demonstrates](#What-It-Demonstrates)
+* [What It Demonstrates](#what-it-demonstrates)
 * [Meta tags explained](#meta-tags-explained)
-* [HTML Elements Used](#HTML-Elements-Used)
+* [HTML Elements Used](#html-elements-used)
 * [Technologies Used](#technologies-used)
 * [Browser support](#browser-support)
-* [Resources](#Resources)
+* [Resources](#resources)
 
-## 📑 Features 
+## Features 
 * **HTML5** with semantic elements;
 * **Meta tag SEO**: for optimization on browser web;
 * **Responsive**: thanks to meta viewport configured for mobile device;
@@ -20,7 +20,7 @@
 * **Internal navigation**: quick jump to recipe sections;
 * **Visual content**: images of ingredients and final dish.
 
-## 🗂️ Structure
+## Structure
 ```
 giachero-gaia-units-01-03/                # main folder
 ├── 01-html-css-js/                       # unit1 folder 
@@ -44,7 +44,7 @@ giachero-gaia-units-01-03/                # main folder
          └── README.md                    # file README
 ```
 
-## 🎯 How to get started
+## How to get started
 ### Method 1: Double-Click (Easiest)
 1. **Download** all project files
 2. **Double-click** on `index.html`
@@ -58,7 +58,7 @@ giachero-gaia-units-01-03/                # main folder
 4. Select **"Open with Live Server"**
 5. The page opens automatically with live reload
 
-## 🔍 What It Demonstrates
+## What It Demonstrates
 This project showcases an **Italian baked pasta recipe** using fundamental HTML elements:
 
 ### 1. Heading Hierarchy
@@ -104,7 +104,7 @@ This project showcases an **Italian baked pasta recipe** using fundamental HTML 
 * Comments separating main content section
 * Appropriate use of table elements (thead, tbody, tr, td, th)
 
-## 📝 Meta tags explained
+## Meta tags explained
 | **Meta Tag** | **Purpose** |  
 |--------------|-------------|
 |`charset` | Defines character encoding (UTF-8 supports all languages)|
@@ -116,7 +116,7 @@ This project showcases an **Italian baked pasta recipe** using fundamental HTML 
 |`og:title` | "Recipe that everyone likes" - title shown when shared |
 |`og:description` | Full recipe description for social media previews |
 
-## 📚 HTML Elements Used
+## HTML Elements Used
 | Element | Purpose | Example in Project |
 |---------|---------|-------------------|
 | `<h1>` | Main header | "BAKED TROFIE WITH SPECK AND WALNUTS" |
@@ -143,13 +143,13 @@ This project showcases an **Italian baked pasta recipe** using fundamental HTML 
 | `border` attribute | Adds borders to table | `border="1"` on sources table |
 | `&#9758;` | HTML entity for symbol ☞ | Decorative pointing hand before ingredient sections |
 
-## 🛠️ Technologies Used
+## Technologies Used
 * **HTML5** - Document structure
 * **Tables** - Data organization and layout
 * **Lists** - Structured ingredient and procedure presentation
 * **Inline CSS** - Basic image styling
 
-## 💻 Browser support
+## Browser support
 This HTML supports all modern browsers:  
 ✅ Chrome  
 ✅ Microsoft Edge  
@@ -158,7 +158,7 @@ This HTML supports all modern browsers:
 ✅ Safari on iPhone and iPad  
 ✅ Chrome on Android 
 
-## 📖 Resources
+## Resources
 - [MDN Web Docs - HTML Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 - [W3Schools - HTML Tutorial](https://www.w3schools.com/html/)
 - [W3Schools - HTML Tables](https://www.w3schools.com/html/html_tables.asp)

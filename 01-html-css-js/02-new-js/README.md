@@ -1,7 +1,7 @@
 # __New JS__
 **This is a template HTML5 with a tag script for JavaScript file.**
 
-## 📍 Table of Contents
+## Table of Contents
 * [Features](#features)
 * [Structure](#structure)
 * [How to get started](#how-to-get-started)
@@ -10,14 +10,14 @@
 * [Meta tags explained](#meta-tags-explained)
 * [Browser support](#browser-support)
 
-## 📑 Features 
+## Features 
 * **HTML5** with semantic elements;
 * **Meta tag SEO**: for optimization on browser web;
 * **Responsive**: thanks to meta viewport configured for mobile device;
 * **Open graph**: tag for share to social media;
 * **Sources**: JavaScript file structure.
 
-## 🗂️ Structure
+## Structure
 ```
 giachero-gaia-units-01-03/      # main folder
 └── 01-html-css-js/             # unit1 folder 
@@ -28,7 +28,7 @@ giachero-gaia-units-01-03/      # main folder
           └── README.md         # file README
 ```
 
-## 🎯 How to get started
+## How to get started
 ### Method 1: Double-Click (Easiest)
 1. **Download** all project files to your computer
 2. **Double-click** on `index.html`
@@ -51,14 +51,12 @@ giachero-gaia-units-01-03/      # main folder
 7. Click on the **Console** tab
 8. You should see "Gaia" printed in the console.
 
-## 🛠️ Technologies Used
-
+## Technologies Used
 * **HTML5** - Page structure
 * **JavaScript** - Programming logic
 * **Browser Console** - Output display
 
-## 🔍 What It Does
-
+## What It Does
 This project demonstrates the **most basic** JavaScript functionality:
 
 1. **HTML file** loads the page structure
@@ -67,7 +65,6 @@ This project demonstrates the **most basic** JavaScript functionality:
 4. You need to open **Developer Tools** to see the output
 
 ### Code Breakdown
-
 **HTML (index.html):**
 ```html
 <script src="main.js"></script>
@@ -80,7 +77,7 @@ console.log("Gaia");
 ```
 This command prints text to the browser console (not visible on the page).
 
-## 📝 Meta tags explained
+## Meta tags explained
 | **Meta Tag** | **Purpose** |  
 |--------------|-------------|
 |`charset` | Defines character encoding (UTF-8 supports all languages)|
@@ -89,7 +86,7 @@ This command prints text to the browser console (not visible on the page).
 |`description` | Shows up in search engine results |
 |`og:*` | Controls how the page appears when shared on social media |
 
-## 💻 Browser support
+## Browser support
 This HTML and JavaScript supports all modern browsers:  
 ✅ Chrome  
 ✅ Microsoft Edge  

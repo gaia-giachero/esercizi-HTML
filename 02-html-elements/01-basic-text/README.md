@@ -1,25 +1,24 @@
 # __Basic Text__
 **This is a first HTML5 file with basic text with element header, paragraph and with element for style.**
 
-# File HTML
-## 📍 Table of Contents
+## Table of Contents
 * [Features](#features)
 * [Structure](#structure)
 * [How to get started](#how-to-get-started)
-* [What It Demonstrates](#What-It-Demonstrates)
+* [What It Demonstrates](#what-it-demonstrates)
 * [Meta tags explained](#meta-tags-explained)
-* [HTML Elements Used](#HTML-Elements-Used)
+* [HTML Elements Used](#html-elements-used)
 * [Technologies Used](#technologies-used)
 * [Browser support](#browser-support)
-* [Resources](#Resources)
+* [Resources](#resources)
 
-## 📑 Features 
+## Features 
 * **HTML5** with semantic elements;
 * **Meta tag SEO**: for optimization on browser web;
 * **Responsive**: thanks to meta viewport configured for mobile device;
 * **Open graph**: tag for share to social media.
 
-## 🗂️ Structure
+## Structure
 ```
 giachero-gaia-units-01-03/      # main folder
 ├── 01-html-css-js/             # unit1 folder 
@@ -32,7 +31,7 @@ giachero-gaia-units-01-03/      # main folder
           └── README.md         # file README
 ```
 
-## 🎯 How to get started
+## How to get started
 ### Method 1: Double-Click (Easiest)
 1. **Download** all project files
 2. **Double-click** on `index.html`
@@ -46,7 +45,7 @@ giachero-gaia-units-01-03/      # main folder
 4. Select **"Open with Live Server"**
 5. The page opens automatically with live reload
 
-## 🔍 What It Demonstrates
+## What It Demonstrates
 This project showcases the **fundamental building blocks** of web content:
 
 ### 1. Heading Hierarchy
@@ -67,7 +66,7 @@ This project showcases the **fundamental building blocks** of web content:
 * Comments explaining code sections
 * Logical content organization
 
-## 📝 Meta tags explained
+## Meta tags explained
 | **Meta Tag** | **Purpose** |  
 |--------------|-------------|
 |`charset` | Defines character encoding (UTF-8 supports all languages)|
@@ -76,7 +75,7 @@ This project showcases the **fundamental building blocks** of web content:
 |`description` | Shows up in search engine results |
 |`og:*` | Controls how the page appears when shared on social media |
 
-## 📚 HTML Elements Used
+## HTML Elements Used
 | Element | Purpose | Example in Project |
 |---------|---------|-------------------|
 | `<h1>` to `<h6>` | Headers (biggest to smallest) | "My First Program", "This is first header", etc. |
@@ -86,12 +85,12 @@ This project showcases the **fundamental building blocks** of web content:
 | `<span>` | Generic inline container | Yellow highlighted text |
 | Inline CSS | Quick styling | `style="background-color: yellow;"` |
 
-## 🛠️ Technologies Used
+## Technologies Used
 * **HTML5** - Document structure
 * **CSS3** - Styling (inline with `<span>`)
 * **Lorem Ipsum** - Placeholder text
 
-## 💻 Browser support
+## Browser support
 This HTML supports all modern browsers:  
 ✅ Chrome  
 ✅ Microsoft Edge  
@@ -100,7 +99,7 @@ This HTML supports all modern browsers:
 ✅ Safari on iPhone and iPad  
 ✅ Chrome on Android 
 
-## 📖 Resources
+## Resources
 - [MDN Web Docs - HTML Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 - [W3Schools - HTML Tutorial](https://www.w3schools.com/html/)
 - [HTML Validator](https://validator.w3.org/) - Check your HTML code

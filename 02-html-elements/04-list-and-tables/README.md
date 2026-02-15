@@ -1,18 +1,18 @@
 # __List and tables__
 **This is an HTML5 file demonstrating ordered lists, unordered lists, and HTML tables with various types of content including links and images.**
 
-## 📍 Table of Contents
+## Table of Contents
 * [Features](#features)
 * [Structure](#structure)
-* [How to get started](#how-to-get-started)
-* [What It Demonstrates](#What-It-Demonstrates)
-* [Meta tags explained](#meta-tags-explained)
-* [HTML Elements Used](#HTML-Elements-Used)
+* [How to Get Started](#how-to-get-started)
+* [What It Demonstrates](#what-it-demonstrates)
+* [Meta Tags Explained](#meta-tags-explained)
+* [HTML Elements Used](#html-elements-used)
 * [Technologies Used](#technologies-used)
-* [Browser support](#browser-support)
-* [Resources](#Resources)
+* [Browser Support](#browser-support)
+* [Resources](#resources)
 
-## 📑 Features 
+## Features 
 * **HTML5** with semantic elements;
 * **Meta tag SEO**: for optimization on browser web;
 * **Responsive**: thanks to meta viewport configured for mobile device;
@@ -21,7 +21,7 @@
 * **Lists**: ordered and unordered lists with various content types;
 * **Tables**: structured data display with headers and body rows.
 
-## 🗂️ Structure
+## Structure
 ```
 giachero-gaia-units-01-03/                # main folder
 ├── 01-html-css-js/                       # unit1 folder 
@@ -45,7 +45,7 @@ giachero-gaia-units-01-03/                # main folder
          └── README.md                    # file README
 ```
 
-## 🎯 How to get started
+## How to get started
 ### Method 1: Double-Click (Easiest)
 1. **Download** all project files
 2. **Double-click** on `index.html`
@@ -59,7 +59,7 @@ giachero-gaia-units-01-03/                # main folder
 4. Select **"Open with Live Server"**
 5. The page opens automatically with live reload
 
-## 🔍 What It Demonstrates
+## What It Demonstrates
 This project showcases **lists and tables** using fundamental HTML elements:
 
 ### 1. Heading Hierarchy
@@ -97,7 +97,7 @@ This project showcases **lists and tables** using fundamental HTML elements:
 * ID attributes for section linking
 * Comments explaining code sections
 
-## 📝 Meta tags explained
+## Meta tags explained
 | **Meta Tag** | **Purpose** |  
 |--------------|-------------|
 |`charset` | Defines character encoding (UTF-8 supports all languages)|
@@ -106,7 +106,7 @@ This project showcases **lists and tables** using fundamental HTML elements:
 |`description` | Shows up in search engine results |
 |`og:*` | Controls how the page appears when shared on social media |
 
-## 📚 HTML Elements Used
+## HTML Elements Used
 | Element | Purpose | Example in Project |
 |---------|---------|-------------------|
 | `<h1>` | Main header | "List and Tables" |
@@ -131,11 +131,11 @@ This project showcases **lists and tables** using fundamental HTML elements:
 | `border` attribute | Defines table border | border="1" on all tables |
 | `style` attribute | Inline CSS styling | style="width: 20%;" on images |
 
-## 🛠️ Technologies Used
+## Technologies Used
 * **HTML5** - Document structure
 * **CSS3** - Styling (inline with `<span>`)
 
-## 💻 Browser support
+## Browser support
 This HTML supports all modern browsers:  
 ✅ Chrome  
 ✅ Microsoft Edge  
@@ -144,7 +144,7 @@ This HTML supports all modern browsers:
 ✅ Safari on iPhone and iPad  
 ✅ Chrome on Android 
 
-## 📖 Resources
+## Resources
 - [MDN Web Docs - HTML Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 - [MDN Web Docs - HTML Tables](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table)
 - [MDN Web Docs - HTML Lists](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/ul)

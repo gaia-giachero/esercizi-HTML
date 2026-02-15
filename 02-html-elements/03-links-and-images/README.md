@@ -1,24 +1,24 @@
 # __Links and Images__
 **This is an HTML5 file about volleyball with headers, paragraphs, text formatting elements (bold, italic, underline), inline styles, hyperlinks, and images.**
 
-## 📍 Table of Contents
+## Table of Contents
 * [Features](#features)
 * [Structure](#structure)
 * [How to get started](#how-to-get-started)
-* [What It Demonstrates](#What-It-Demonstrates)
+* [What It Demonstrates](#what-it-demonstrates)
 * [Meta tags explained](#meta-tags-explained)
-* [HTML Elements Used](#HTML-Elements-Used)
+* [HTML Elements Used](#html-elements-used)
 * [Technologies Used](#technologies-used)
 * [Browser support](#browser-support)
-* [Resources](#Resources)
+* [Resources](#resources)
 
-## 📑 Features 
+## Features 
 * **HTML5** with semantic elements;
 * **Meta tag SEO**: for optimization on browser web;
 * **Responsive**: thanks to meta viewport configured for mobile device;
 * **Open graph**: tag for share to social media.
 
-## 🗂️ Structure
+## Structure
 ```
 giachero-gaia-units-01-03/                   # main folder
 ├── 01-html-css-js/                          # unit1 folder 
@@ -37,7 +37,7 @@ giachero-gaia-units-01-03/                   # main folder
          └── README.md                       # file README
 ```
 
-## 🎯 How to get started
+## How to get started
 ### Method 1: Double-Click (Easiest)
 1. **Download** all project files
 2. **Double-click** on `index.html`
@@ -51,7 +51,7 @@ giachero-gaia-units-01-03/                   # main folder
 4. Select **"Open with Live Server"**
 5. The page opens automatically with live reload
 
-## 🔍 What It Demonstrates
+## What It Demonstrates
 This project showcases **volleyball-themed content** using fundamental HTML elements:
 
 ### 1. Heading Hierarchy
@@ -84,7 +84,7 @@ This project showcases **volleyball-themed content** using fundamental HTML elem
 * Comments explaining code sections
 * Logical content organization about volleyball topic
 
-## 📝 Meta tags explained
+## Meta tags explained
 | **Meta Tag** | **Purpose** |  
 |--------------|-------------|
 |`charset` | Defines character encoding (UTF-8 supports all languages)|
@@ -93,7 +93,7 @@ This project showcases **volleyball-themed content** using fundamental HTML elem
 |`description` | Shows up in search engine results |
 |`og:*` | Controls how the page appears when shared on social media |
 
-## 📚 HTML Elements Used
+## HTML Elements Used
 | Element | Purpose | Example in Project |
 |---------|---------|-------------------|
 | `<h1>` | Main header | "Volleyball" |
@@ -115,11 +115,11 @@ This project showcases **volleyball-themed content** using fundamental HTML elem
 | `&#9786;` | HTML entity for symbol ☺ | Used in the first paragraph |
 | Inline CSS | Quick styling | `style="color: red;"` for colored text |
 
-## 🛠️ Technologies Used
+## Technologies Used
 * **HTML5** - Document structure
 * **CSS3** - Styling (inline with `<span>`)
 
-## 💻 Browser support
+## Browser support
 This HTML supports all modern browsers:  
 ✅ Chrome  
 ✅ Microsoft Edge  
@@ -128,7 +128,7 @@ This HTML supports all modern browsers:
 ✅ Safari on iPhone and iPad  
 ✅ Chrome on Android 
 
-## 📖 Resources
+## Resources
 - [MDN Web Docs - HTML Elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 - [W3Schools - HTML Tutorial](https://www.w3schools.com/html/)
 - [HTML Validator](https://validator.w3.org/) - Check your HTML code

@@ -1,7 +1,7 @@
 # __HTML Boilerplate__
-**This is a template HTML5.  Thanks this boilerplate I can start whit a base code.**
+**This is a template HTML5.  Thanks this boilerplate I can start with a base code.**
 
-## 📍 Table of Contents
+## Table of Contents
 * [Features](#features)
 * [Structure](#structure)
 * [How to get started](#how-to-get-started)
@@ -9,7 +9,7 @@
 * [Meta tags explained](#meta-tags-explained)
 * [Browser support](#browser-support)
 
-## 📑 Features 
+## Features 
 * **HTML5** with semantic elements;
 * **Meta tag SEO**: for optimization on browser web;
 * **Responsive**: thanks to meta viewport configured for mobile device;
@@ -18,7 +18,7 @@
 * **Fonts**: optional but there is the Google Fonts integration;
 * **Favicon**: support.
 
-## 🗂️ Structure
+## Structure
 ```
 giachero-gaia-units-01-03/      # main folder
 └── 01-html-css-js/             # unit1 folder 
@@ -27,7 +27,7 @@ giachero-gaia-units-01-03/      # main folder
           └── README.md         # file README
 ```
 
-## 🎯 How to get started
+## How to get started
 1. **Download** Boilerplate.
 2. **Open** file. 
 3. **Edits** the HTML file and customize:  
@@ -37,7 +37,7 @@ giachero-gaia-units-01-03/      # main folder
     * Open Graph information.
 4. **Start** coding.
 
-## 🔄️ Customization
+## Customization
 ### 1️⃣Change Page Title and Description
 ```html
 <!-- Title of the page -->
@@ -46,7 +46,7 @@ giachero-gaia-units-01-03/      # main folder
 <!-- Description of SEO -->
 <meta name="description" content="Your description here">
 ```
-### 2️⃣Upadate Author Information
+### 2️⃣Update Author Information
 ``` html
 <!-- Author -->
 <meta name="author" content="Your name">
@@ -66,7 +66,7 @@ Uncomment these lines in the `<head>` section:
 ```
 Replace `Your+Font` with your chosen font from [Google Fonts](https://fonts.google.com/).
 
-## 📝 Meta tags explained
+## Meta tags explained
 | **Meta Tag** | **Purpose** |  
 |--------------|-------------|
 |`charset` | Defines character encoding (UTF-8 supports all languages)|
@@ -75,7 +75,7 @@ Replace `Your+Font` with your chosen font from [Google Fonts](https://fonts.goog
 |`description` | Shows up in search engine results |
 |`og:*` | Controls how the page appears when shared on social media |
 
-## 💻 Browser support
+## Browser support
 This boilerplate supports all modern browsers:  
 ✅ Chrome  
 ✅ Microsoft Edge  
