@@ -1,4 +1,4 @@
- __Astronaut Application Form__
+# __Astronaut Application Form__
 **This is an HTML5 interactive form for astronaut applications with multiple input types, form validation, data collection, and integration with external services (SheetDB/Webhook).**
 
 ## Table of Contents
